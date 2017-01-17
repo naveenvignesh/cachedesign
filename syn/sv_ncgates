@@ -1,0 +1,3 @@
+#!/usr/bin/csh
+#source /apps/design_environment.csh
+ncverilog +libext+.tsbvlibp +access+r +sv +v +define+GATE_SIMS -y /apps/toshiba/sjsu/verilog/tc240c +libext+.v $argv

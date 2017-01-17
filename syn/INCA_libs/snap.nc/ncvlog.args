@@ -1,0 +1,29 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx86.14.10.nc
+-RUNMODE
+-LIBEXT
+.tsbvlibp
+-sv
+-DEFINE
+GATE_SIMS
+-YDIR
+/apps/toshiba/sjsu/verilog/tc240c
+-LIBEXT
+.v
+../test_lc4_insn_set_assoc_cache.v
+cache_set_assoc_gates.v
+../delay_eight_cycles.v
+../Nbit_reg.v
+-CDSLIB
+./INCA_libs/irun.lnx86.14.10.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.14.10.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx86.14.10.nc/xllibs
+-ALLOWUNBOUND

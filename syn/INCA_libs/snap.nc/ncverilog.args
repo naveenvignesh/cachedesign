@@ -1,0 +1,16 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
++libext+.tsbvlibp
++access+r
++sv
++v
++define+GATE_SIMS
+-y
+/apps/toshiba/sjsu/verilog/tc240c
++libext+.v
+../test_lc4_insn_set_assoc_cache.v
+cache_set_assoc_gates.v
+../delay_eight_cycles.v
+../Nbit_reg.v

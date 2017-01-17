@@ -1,0 +1,1134 @@
+                                        
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+                                        
+              Version K-2015.06-SP5-1 for linux64 - Feb 26, 2016 
+                                        
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+#
+# set the inf.clk to be your interface name <name>.clk
+# set the inf.rst to be your interface name <name>.rst
+#
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25
+#/home/bo/boop3386/Documents/eth_crc/rtl_syn/rtl_struct.sv 
+#set link_library {/home/morris/PnRhw/tsmc018/signalstorm/osu018_stdcells.db  /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+#set target_library {/home/morris/PnRhw/tsmc018/signalstorm/osu018_stdcells.db}
+analyze -format sverilog {
+/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv
+ }
+Running PRESTO HDLC
+Compiling source file /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:51: the undeclared symbol 'cvalid' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:58: the undeclared symbol 'vld' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:65: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:68: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:77: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:81: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:91: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:92: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:93: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:94: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:95: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:96: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:97: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:98: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:99: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:100: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:101: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:102: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:103: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:104: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:105: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:106: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:107: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:109: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:110: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:111: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:112: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:113: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:114: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:115: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:116: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:117: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:118: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:119: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:120: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:121: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:122: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:123: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:124: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:154: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:155: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:159: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:160: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:163: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv:164: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Presto compilation completed successfully.
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+1
+#read_verilog "/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.v"
+#elaborate CRC32_D8
+#create_clock -name VCLK -period 3.3
+#set_input_delay  -clock VCLK 0.6 [all_inputs]
+#set_output_delay -clock VCLK 0.6 [all_outputs]
+#set_wire_load_model -name T8G00TW8
+#set_max_area 0
+#compile_ultra
+#update_timing
+#report_timing -max_paths 3
+#write -hierarchy -format verilog -output CRC32_D8_gates.v
+elaborate lc4_insn_cache
+Loading db file '/apps/synopsys/K-2015.06-SP5-1_power_compiler/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/K-2015.06-SP5-1_power_compiler/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine lc4_insn_cache line 62 in file
+		'/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     lru_bit_reg     | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine lc4_insn_cache line 89 in file
+		'/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  miss_addr_8d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|     miss_1d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     miss_2d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     miss_3d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     miss_4d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     miss_5d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     miss_6d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     miss_7d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     miss_8d_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|  miss_addr_1d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|  miss_addr_2d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|  miss_addr_3d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|  miss_addr_4d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|  miss_addr_5d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|  miss_addr_6d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|  miss_addr_7d_reg   | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine lc4_insn_cache line 151 in file
+		'/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     tagcmem_reg     | Flip-flop | 1280  |  Y  | N  | N  | N  | N  | N  | N  |
+|      cmem_reg       | Flip-flop | 2176  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+========================================================
+|  block name/line   | Inputs | Outputs | # sel inputs |
+========================================================
+| lc4_insn_cache/44  |  128   |   10    |      7       |
+| lc4_insn_cache/45  |  128   |   10    |      7       |
+| lc4_insn_cache/50  |  128   |   17    |      7       |
+| lc4_insn_cache/68  |   64   |    2    |      6       |
+| lc4_insn_cache/131 |   64   |    2    |      6       |
+| lc4_insn_cache/137 |  128   |   10    |      7       |
+| lc4_insn_cache/138 |  128   |   10    |      7       |
+| lc4_insn_cache/143 |  128   |    1    |      7       |
+========================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'lc4_insn_cache'.
+1
+create_clock clk -name clk -period 3.80
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty 0.25 clk
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_output_delay 0.5 -clock clk [all_outputs]
+1
+set all_inputs_wo_rst_clk [remove_from_collection [remove_from_collection [all_inputs] [get_port clk]] [get_port rst]]
+{gwe mem_idata[15] mem_idata[14] mem_idata[13] mem_idata[12] mem_idata[11] mem_idata[10] mem_idata[9] mem_idata[8] mem_idata[7] mem_idata[6] mem_idata[5] mem_idata[4] mem_idata[3] mem_idata[2] mem_idata[1] mem_idata[0] addr[15] addr[14] addr[13] addr[12] addr[11] addr[10] addr[9] addr[8] addr[7] addr[6] addr[5] addr[4] addr[3] addr[2] addr[1] addr[0]}
+set_driving_cell -lib_cell CND2X1 $all_inputs_wo_rst_clk
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+set_input_delay 0.6 -clock clk $all_inputs_wo_rst_clk
+1
+set_output_delay 0.6 -clock clk [all_outputs]
+1
+set_fix_hold [ get_clocks clk ]
+1
+set_output_delay 0.3 -clock clk [all_outputs]
+1
+set_wire_load_model -name T8G00TW8
+1
+#set_clock_gating_style -minimum_bitwidth 2
+set_max_area 0
+1
+check_design
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06-SP5-1
+Date:        Wed Oct  5 23:31:03 2016
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Unconnected ports (LINT-28)                                     1
+--------------------------------------------------------------------------------
+
+Warning: In design 'lc4_insn_cache', port 'gwe' is not connected to any nets. (LINT-28)
+1
+compile_ultra 
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | K-2015.06-DWBB_201506.5.1
+                                                               |     *     |
+| Licensed DW Building Blocks        | I-2013.12-DWBB_201312.5 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 1 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+  Simplifying Design 'lc4_insn_cache'
+
+Loaded alib file './alib-52/tc240c.db_NOMIN25.alib'
+  Building model 'DW01_NAND2'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'lc4_insn_cache'
+Information: Added key list 'DesignWare' to design 'lc4_insn_cache'. (DDB-72)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+  Mapping Optimization (Phase 2)
+  Mapping Optimization (Phase 3)
+  Mapping Optimization (Phase 4)
+  Mapping Optimization (Phase 5)
+  Mapping Optimization (Phase 6)
+  Mapping Optimization (Phase 7)
+  Mapping Optimization (Phase 8)
+  Mapping Optimization (Phase 9)
+  Mapping Optimization (Phase 10)
+  Mapping Optimization (Phase 11)
+  Mapping Optimization (Phase 12)
+  Mapping Optimization (Phase 13)
+  Mapping Optimization (Phase 14)
+  Mapping Optimization (Phase 15)
+  Mapping Optimization (Phase 16)
+
+  Beginning Constant Register Removal
+  -----------------------------------
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:04:03   39537.5      1.91    5555.2     314.5                              0.0000      0.00  
+    0:04:18   42056.5      0.77    2286.8     381.4                              0.0000      0.00  
+    0:04:18   42056.5      0.77    2286.8     381.4                              0.0000      0.00  
+    0:04:19   42027.5      0.77    2287.9     381.4                              0.0000      0.00  
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:04:40   41993.0      0.81    2394.6     381.4                              0.0000      0.00  
+    0:04:43   42165.0      0.81    2385.8     381.4                              0.0000      0.00  
+    0:04:45   42319.0      0.81    2380.6     392.8                              0.0000      0.00  
+    0:04:47   42198.0      0.81    2387.1      59.2                              0.0000      0.00  
+    0:04:47   42198.0      0.81    2387.1      59.2                              0.0000      0.00  
+    0:04:50   42294.5      0.78    2492.8      59.2                              0.0000      0.00  
+    0:04:50   42294.5      0.78    2492.8      59.2                              0.0000      0.00  
+    0:04:51   42318.5      0.78    2489.5      59.2                              0.0000      0.00  
+    0:04:51   42318.5      0.78    2489.5      59.2                              0.0000      0.00  
+    0:04:53   42589.5      0.78    2487.5      59.2                              0.0000      0.00  
+    0:04:53   42589.5      0.78    2487.5      59.2                              0.0000      0.00  
+    0:05:11   43562.0      0.63    2061.8     113.0                              0.0000      0.00  
+    0:05:11   43562.0      0.63    2061.8     113.0                              0.0000      0.00  
+    0:05:13   43562.0      0.63    2061.8     113.0                              0.0000      0.00  
+    0:05:13   43562.0      0.63    2061.8     113.0                              0.0000      0.00  
+    0:05:18   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+    0:05:18   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+    0:05:20   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+    0:05:20   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+    0:05:21   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+    0:05:21   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+    0:05:23   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:05:23   43585.5      0.63    2047.0     113.0                              0.0000      0.00  
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:05:25   43608.5      0.59    1811.6       0.0                              0.0000      0.00  
+    0:05:29   43644.5      0.59    1821.6       0.0                              0.0000      0.00  
+    0:05:32   43744.5      0.56    1738.2       0.0 tagcmem_reg[53][6]/D         0.0000      0.00  
+    0:05:32   43746.0      0.56    1734.0       0.0                              0.0000      0.00  
+    0:05:36   43830.0      0.57    1739.8       0.0                              0.0000      0.00  
+    0:05:36   43830.0      0.57    1739.8       0.0                              0.0000      0.00  
+    0:05:38   43701.0      0.57    1740.2       0.0                              0.0000      0.00  
+    0:05:38   43701.0      0.57    1740.2       0.0                              0.0000      0.00  
+    0:05:42   43718.0      0.57    1740.1       0.0                              0.0000      0.00  
+    0:05:42   43718.0      0.57    1740.1       0.0                              0.0000      0.00  
+    0:05:42   43726.5      0.57    1748.5       0.0                              0.0000      0.00  
+    0:05:42   43726.5      0.57    1748.5       0.0                              0.0000      0.00  
+    0:05:43   43726.5      0.57    1748.5       0.0                              0.0000      0.00  
+    0:05:43   43726.5      0.57    1748.5       0.0                              0.0000      0.00  
+    0:05:48   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:48   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:49   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:49   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:49   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:49   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:50   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:50   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:50   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:50   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:51   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:05:51   43883.0      0.55    1721.7       0.0                              0.0000      0.00  
+    0:05:53   43327.5      0.55    1717.5       0.0                              0.0000      0.00  
+    0:05:56   43318.0      0.54    1704.1       0.0                              0.0000      0.00  
+    0:05:59   43279.5      0.54    1704.0       0.0                              0.0000      0.00  
+    0:06:00   43263.0      0.54    1704.0       0.0                              0.0000      0.00  
+    0:06:00   43263.0      0.54    1704.0       0.0                              0.0000      0.00  
+    0:06:01   43249.5      0.54    1704.4       0.0                              0.0000      0.00  
+    0:06:09   42775.0      0.54    1698.5       0.0                              0.0000      0.00  
+    0:06:11   43344.0      0.54    1695.2    1984.9                              0.0000      0.00  
+    0:06:17   43458.5      0.54    1681.2    2541.5                              0.0000      0.00  
+    0:06:22   43521.5      0.54    1672.8    2883.1                              0.0000      0.00  
+    0:06:27   43661.0      0.54    1664.6    4174.5                              0.0000      0.00  
+    0:06:27   43691.0      0.54    1664.1    4174.5                              0.0000      0.00  
+    0:06:32   42200.5      0.53    1664.1     778.8                              0.0000      0.00  
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'lc4_insn_cache' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'clk': 3720 load(s), 1 driver(s)
+Information: State dependent leakage is now switched from off to on.
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1
+#-gate_clock
+create_clock clk -name clk -period 4.40
+1
+update_timing
+Information: Updating design information... (UID-85)
+Warning: Design 'lc4_insn_cache' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+1
+report_timing -max_paths 10
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : lc4_insn_cache
+Version: K-2015.06-SP5-1
+Date   : Wed Oct  5 23:37:38 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NOMIN25   Library: tc240c
+Wire Load Model Mode: top
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[110][12]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U12081/Z (CND2X4)                        0.14       2.00 f
+  U12094/Z (CNR2IX4)                       0.11       2.11 r
+  U12095/Z (CIVX4)                         0.10       2.21 f
+  U10590/Z (CND2IX2)                       0.14       2.35 f
+  U12144/Z (CND2X2)                        0.05       2.40 r
+  U12147/Z (CNR2X2)                        0.06       2.47 f
+  U10703/Z (CANR11X4)                      0.10       2.57 r
+  U10680/Z (CND4X4)                        0.16       2.74 f
+  U10770/Z (CND2X4)                        0.09       2.83 r
+  U10768/Z (COND1X2)                       0.13       2.95 f
+  U14130/Z (CNIVX3)                        0.27       3.22 f
+  U14265/Z (CND2X2)                        0.13       3.36 r
+  U14278/Z (CNIVX4)                        0.22       3.58 r
+  U14283/Z (CND3XL)                        0.20       3.78 f
+  U9851/Z (COND1X1)                        0.10       3.87 r
+  cmem_reg[110][12]/D (CFD1QX2)            0.00       3.87 r
+  data arrival time                                   3.87
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[110][12]/CP (CFD1QX2)           0.00       4.15 r
+  library setup time                      -0.21       3.94
+  data required time                                  3.94
+  -----------------------------------------------------------
+  data required time                                  3.94
+  data arrival time                                  -3.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[110][9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U12081/Z (CND2X4)                        0.14       2.00 f
+  U12094/Z (CNR2IX4)                       0.11       2.11 r
+  U12095/Z (CIVX4)                         0.10       2.21 f
+  U10590/Z (CND2IX2)                       0.14       2.35 f
+  U12144/Z (CND2X2)                        0.05       2.40 r
+  U12147/Z (CNR2X2)                        0.06       2.47 f
+  U10703/Z (CANR11X4)                      0.10       2.57 r
+  U10680/Z (CND4X4)                        0.16       2.74 f
+  U10770/Z (CND2X4)                        0.09       2.83 r
+  U10768/Z (COND1X2)                       0.13       2.95 f
+  U14130/Z (CNIVX3)                        0.27       3.22 f
+  U14265/Z (CND2X2)                        0.13       3.36 r
+  U14278/Z (CNIVX4)                        0.22       3.58 r
+  U14280/Z (CND3XL)                        0.20       3.78 f
+  U9847/Z (COND1X1)                        0.10       3.87 r
+  cmem_reg[110][9]/D (CFD1QX2)             0.00       3.87 r
+  data arrival time                                   3.87
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[110][9]/CP (CFD1QX2)            0.00       4.15 r
+  library setup time                      -0.21       3.94
+  data required time                                  3.94
+  -----------------------------------------------------------
+  data required time                                  3.94
+  data arrival time                                  -3.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[110][8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U12081/Z (CND2X4)                        0.14       2.00 f
+  U12094/Z (CNR2IX4)                       0.11       2.11 r
+  U12095/Z (CIVX4)                         0.10       2.21 f
+  U10590/Z (CND2IX2)                       0.14       2.35 f
+  U12144/Z (CND2X2)                        0.05       2.40 r
+  U12147/Z (CNR2X2)                        0.06       2.47 f
+  U10703/Z (CANR11X4)                      0.10       2.57 r
+  U10680/Z (CND4X4)                        0.16       2.74 f
+  U10770/Z (CND2X4)                        0.09       2.83 r
+  U10768/Z (COND1X2)                       0.13       2.95 f
+  U14130/Z (CNIVX3)                        0.27       3.22 f
+  U14265/Z (CND2X2)                        0.13       3.36 r
+  U14278/Z (CNIVX4)                        0.22       3.58 r
+  U14279/Z (CND3XL)                        0.20       3.78 f
+  U9848/Z (COND1X1)                        0.10       3.87 r
+  cmem_reg[110][8]/D (CFD1QX2)             0.00       3.87 r
+  data arrival time                                   3.87
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[110][8]/CP (CFD1QX2)            0.00       4.15 r
+  library setup time                      -0.21       3.94
+  data required time                                  3.94
+  -----------------------------------------------------------
+  data required time                                  3.94
+  data arrival time                                  -3.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[110][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U12081/Z (CND2X4)                        0.14       2.00 f
+  U12094/Z (CNR2IX4)                       0.11       2.11 r
+  U12095/Z (CIVX4)                         0.10       2.21 f
+  U10590/Z (CND2IX2)                       0.14       2.35 f
+  U12144/Z (CND2X2)                        0.05       2.40 r
+  U12147/Z (CNR2X2)                        0.06       2.47 f
+  U10703/Z (CANR11X4)                      0.10       2.57 r
+  U10680/Z (CND4X4)                        0.16       2.74 f
+  U10770/Z (CND2X4)                        0.09       2.83 r
+  U10768/Z (COND1X2)                       0.13       2.95 f
+  U14130/Z (CNIVX3)                        0.27       3.22 f
+  U14265/Z (CND2X2)                        0.13       3.36 r
+  U14278/Z (CNIVX4)                        0.22       3.58 r
+  U14285/Z (CND3XL)                        0.20       3.78 f
+  U9849/Z (COND1X1)                        0.10       3.87 r
+  cmem_reg[110][7]/D (CFD1QX2)             0.00       3.87 r
+  data arrival time                                   3.87
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[110][7]/CP (CFD1QX2)            0.00       4.15 r
+  library setup time                      -0.21       3.94
+  data required time                                  3.94
+  -----------------------------------------------------------
+  data required time                                  3.94
+  data arrival time                                  -3.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[110][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U12081/Z (CND2X4)                        0.14       2.00 f
+  U12094/Z (CNR2IX4)                       0.11       2.11 r
+  U12095/Z (CIVX4)                         0.10       2.21 f
+  U10590/Z (CND2IX2)                       0.14       2.35 f
+  U12144/Z (CND2X2)                        0.05       2.40 r
+  U12147/Z (CNR2X2)                        0.06       2.47 f
+  U10703/Z (CANR11X4)                      0.10       2.57 r
+  U10680/Z (CND4X4)                        0.16       2.74 f
+  U10770/Z (CND2X4)                        0.09       2.83 r
+  U10768/Z (COND1X2)                       0.13       2.95 f
+  U14130/Z (CNIVX3)                        0.27       3.22 f
+  U14265/Z (CND2X2)                        0.13       3.36 r
+  U14278/Z (CNIVX4)                        0.22       3.58 r
+  U14281/Z (CND3XL)                        0.20       3.78 f
+  U9850/Z (COND1X1)                        0.10       3.87 r
+  cmem_reg[110][5]/D (CFD1QX2)             0.00       3.87 r
+  data arrival time                                   3.87
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[110][5]/CP (CFD1QX2)            0.00       4.15 r
+  library setup time                      -0.21       3.94
+  data required time                                  3.94
+  -----------------------------------------------------------
+  data required time                                  3.94
+  data arrival time                                  -3.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[110][10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U12081/Z (CND2X4)                        0.14       2.00 f
+  U12094/Z (CNR2IX4)                       0.11       2.11 r
+  U12095/Z (CIVX4)                         0.10       2.21 f
+  U10590/Z (CND2IX2)                       0.14       2.35 f
+  U12144/Z (CND2X2)                        0.05       2.40 r
+  U12147/Z (CNR2X2)                        0.06       2.47 f
+  U10703/Z (CANR11X4)                      0.10       2.57 r
+  U10680/Z (CND4X4)                        0.16       2.74 f
+  U10770/Z (CND2X4)                        0.09       2.83 r
+  U10768/Z (COND1X2)                       0.13       2.95 f
+  U14130/Z (CNIVX3)                        0.27       3.22 f
+  U14265/Z (CND2X2)                        0.13       3.36 r
+  U14278/Z (CNIVX4)                        0.22       3.58 r
+  U16715/Z (CND3XL)                        0.20       3.78 f
+  U16716/Z (COND1X1)                       0.10       3.87 r
+  cmem_reg[110][10]/D (CFD1QX2)            0.00       3.87 r
+  data arrival time                                   3.87
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[110][10]/CP (CFD1QX2)           0.00       4.15 r
+  library setup time                      -0.21       3.94
+  data required time                                  3.94
+  -----------------------------------------------------------
+  data required time                                  3.94
+  data arrival time                                  -3.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[38][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U10702/Z (CND2X4)                        0.12       1.98 f
+  U12089/Z (CAN2X4)                        0.27       2.25 f
+  U12112/Z (CANR2X1)                       0.15       2.40 r
+  U12116/Z (CND4X2)                        0.17       2.57 f
+  U12126/Z (CND4X2)                        0.11       2.68 r
+  U10770/Z (CND2X4)                        0.11       2.78 f
+  U10768/Z (COND1X2)                       0.16       2.94 r
+  U14130/Z (CNIVX3)                        0.29       3.23 r
+  U14395/Z (CND2X2)                        0.15       3.38 f
+  U14396/Z (CNIVX4)                        0.19       3.57 f
+  U17036/Z (CND3XL)                        0.12       3.69 r
+  U17037/Z (COND1X1)                       0.12       3.81 f
+  cmem_reg[38][4]/D (CFD1QXL)              0.00       3.81 f
+  data arrival time                                   3.81
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[38][4]/CP (CFD1QXL)             0.00       4.15 r
+  library setup time                      -0.27       3.88
+  data required time                                  3.88
+  -----------------------------------------------------------
+  data required time                                  3.88
+  data arrival time                                  -3.81
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[38][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U10702/Z (CND2X4)                        0.12       1.98 f
+  U12089/Z (CAN2X4)                        0.27       2.25 f
+  U12112/Z (CANR2X1)                       0.15       2.40 r
+  U12116/Z (CND4X2)                        0.17       2.57 f
+  U12126/Z (CND4X2)                        0.11       2.68 r
+  U10770/Z (CND2X4)                        0.11       2.78 f
+  U10768/Z (COND1X2)                       0.16       2.94 r
+  U14130/Z (CNIVX3)                        0.29       3.23 r
+  U14395/Z (CND2X2)                        0.15       3.38 f
+  U14396/Z (CNIVX4)                        0.19       3.57 f
+  U17042/Z (CND3XL)                        0.12       3.69 r
+  U17043/Z (COND1X1)                       0.12       3.81 f
+  cmem_reg[38][3]/D (CFD1QXL)              0.00       3.81 f
+  data arrival time                                   3.81
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[38][3]/CP (CFD1QXL)             0.00       4.15 r
+  library setup time                      -0.27       3.88
+  data required time                                  3.88
+  -----------------------------------------------------------
+  data required time                                  3.88
+  data arrival time                                  -3.81
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[38][9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U10702/Z (CND2X4)                        0.12       1.98 f
+  U12089/Z (CAN2X4)                        0.27       2.25 f
+  U12112/Z (CANR2X1)                       0.15       2.40 r
+  U12116/Z (CND4X2)                        0.17       2.57 f
+  U12126/Z (CND4X2)                        0.11       2.68 r
+  U10770/Z (CND2X4)                        0.11       2.78 f
+  U10768/Z (COND1X2)                       0.16       2.94 r
+  U14130/Z (CNIVX3)                        0.29       3.23 r
+  U14395/Z (CND2X2)                        0.15       3.38 f
+  U14674/Z (CNIVX4)                        0.19       3.57 f
+  U17053/Z (CND3XL)                        0.12       3.69 r
+  U17054/Z (COND1X1)                       0.12       3.81 f
+  cmem_reg[38][9]/D (CFD1QXL)              0.00       3.81 f
+  data arrival time                                   3.81
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[38][9]/CP (CFD1QXL)             0.00       4.15 r
+  library setup time                      -0.27       3.88
+  data required time                                  3.88
+  -----------------------------------------------------------
+  data required time                                  3.88
+  data arrival time                                  -3.81
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+  Startpoint: miss_addr_8d_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cmem_reg[38][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  lc4_insn_cache     T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  miss_addr_8d_reg[4]/CP (CFD1X2)          0.00 #     0.00 r
+  miss_addr_8d_reg[4]/Q (CFD1X2)           0.37       0.37 r
+  U11637/Z (CNR2X4)                        0.09       0.47 f
+  U11076/Z (CND2X4)                        0.12       0.59 r
+  U11655/Z (COR2X2)                        0.16       0.75 r
+  U11656/Z (CIVX4)                         0.11       0.86 f
+  U10868/Z (CANR2X4)                       0.14       0.99 r
+  U11753/Z (CND4X2)                        0.14       1.14 f
+  U11754/Z (CNR2X2)                        0.10       1.24 r
+  U11771/Z (CND4X2)                        0.16       1.40 f
+  U11772/Z (CENX2)                         0.17       1.57 f
+  U11773/Z (CNR2X4)                        0.08       1.65 r
+  U11813/Z (CND2X2)                        0.09       1.74 f
+  U11924/Z (CNR2X4)                        0.12       1.86 r
+  U10702/Z (CND2X4)                        0.12       1.98 f
+  U12089/Z (CAN2X4)                        0.27       2.25 f
+  U12112/Z (CANR2X1)                       0.15       2.40 r
+  U12116/Z (CND4X2)                        0.17       2.57 f
+  U12126/Z (CND4X2)                        0.11       2.68 r
+  U10770/Z (CND2X4)                        0.11       2.78 f
+  U10768/Z (COND1X2)                       0.16       2.94 r
+  U14130/Z (CNIVX3)                        0.29       3.23 r
+  U14395/Z (CND2X2)                        0.15       3.38 f
+  U14674/Z (CNIVX4)                        0.19       3.57 f
+  U17058/Z (CND3XL)                        0.12       3.69 r
+  U17059/Z (COND1X1)                       0.12       3.81 f
+  cmem_reg[38][7]/D (CFD1QXL)              0.00       3.81 f
+  data arrival time                                   3.81
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.25       4.15
+  cmem_reg[38][7]/CP (CFD1QXL)             0.00       4.15 r
+  library setup time                      -0.27       3.88
+  data required time                                  3.88
+  -----------------------------------------------------------
+  data required time                                  3.88
+  data arrival time                                  -3.81
+  -----------------------------------------------------------
+  slack (MET)                                         0.07
+
+
+1
+report_area
+ 
+****************************************
+Report : area
+Design : lc4_insn_cache
+Version: K-2015.06-SP5-1
+Date   : Wed Oct  5 23:37:38 2016
+****************************************
+
+Library(s) Used:
+
+    tc240c (File: /apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25)
+
+Number of ports:                           68
+Number of nets:                         17280
+Number of cells:                        17192
+Number of combinational cells:          13470
+Number of sequential cells:              3722
+Number of macros/black boxes:               0
+Number of buf/inv:                       1362
+Number of references:                      85
+
+Combinational area:              25312.500000
+Buf/Inv area:                     2806.500000
+Noncombinational area:           16888.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 42200.500000
+Total area:                 undefined
+1
+#get_attribute {	/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25/CNANDX2 } nandarea
+write -hierarchy -format verilog -output cache_set_assoc_gates.v
+Writing verilog file '/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/syn/cache_set_assoc_gates.v'.
+1
+write_sdc  cache_set_assoc_sdc.sdc
+1
+quit
+
+Thank you...

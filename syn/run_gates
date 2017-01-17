@@ -1,0 +1,2 @@
+#!/usr/bin/csh
+sv_ncgates ../test_lc4_insn_set_assoc_cache.v cache_set_assoc_gates.v ../delay_eight_cycles.v ../Nbit_reg.v | tee run.log

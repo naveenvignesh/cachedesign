@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>F-2011.12</vcsVersion>
+		<dateCreated>Wed Oct  5 16:28:17 2016</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/apps/synopsys/VCMX_Fall_2012/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags=--32 -Mcfl= -pipe -m32 -O -I/apps/synopsys/VCMX_Fall_2012/include  -Mldflags= -m32  -Mout=simv -Mamsrun= -Mvcsaceobjs= -Mobjects= /apps/synopsys/VCMX_Fall_2012/linux/lib/libvirsim.so /apps/synopsys/VCMX_Fall_2012/linux/lib/librterrorinf.so /apps/synopsys/VCMX_Fall_2012/linux/lib/libsnpsmalloc.so  -Msaverestoreobj=/apps/synopsys/VCMX_Fall_2012/linux/lib/vcs_save_restore_new.o -Mcrt0= -Mcrtn= -Mcsrc= -Msyslibs=/apps/synopsys/VCMX_Fall_2012/linux/lib/ctype-stubs_32.a -ldl -lm  +lint=TFIPC-L +systemverilogext+.sv -Xcbug=0x1 -debug_all -ntb_opts dtm +cli+4 +vcsd +itf+/apps/synopsys/VCMX_Fall_2012/linux/lib/vcsd.tab +vpi -line -debug=4 +memcbk -sverilog +vpi -gen_obj test_lc4_insn_set_assoc_cache.v lc4_insn_set_assc_cache.v delay_eight_cycles.v Nbit_reg.v "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="0" path="/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/test_lc4_insn_set_assoc_cache.v" />
+			<file fid="1" path="/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/lc4_insn_set_assc_cache.v" />
+			<file fid="3" path="/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/Nbit_reg.v" />
+			<file fid="2" path="/home/010123386@SJSUAD.SJSU.EDU/Documents/cache_design/delay_eight_cycles.v" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<svFiles fid="0-3" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+			<macro name="INPUT" module="unnamed$$_0" sourceID="0" lineno="76" defID="0" defLine="8" value="1"  vip="false"/>
+			<macro name="NULL" module="unnamed$$_0" sourceID="0" lineno="77" defID="0" defLine="5" value="2"  vip="false"/>
+			<macro name="INPUT" module="unnamed$$_1" sourceID="0" lineno="78" defID="0" defLine="8" value="1"  vip="false"/>
+		</macroDefinitionList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+			<mv i="1" n="&quot;6_0_2.input&quot;" />
+			<mv i="2" n="0" />
+		</macroValueList>
+	</body>
+</opml>
